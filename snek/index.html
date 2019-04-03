@@ -1,0 +1,23 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Snake</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src='src/Head.js'></script>
+  <script src='src/Body.js'></script>
+  <script src='src/Apple.js'></script>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header>Score: <span id="score">0</span><span id="derp">Derpy Snake</span><span class="highScore">High Score: <span id="highScore">0</span></header>
+  <div id="board"></div>
+  <div id="endGame" class="hidden">
+    <div class="inner">
+        <h1>Thanks for Derping</h1>
+        <h2>Score: <span id="endScore"></span></h2>
+        <button id="reset">Play Again??</button>
+    </div>
+  </div>
+</body>
+<script src="./src/main.js"></script>
+</html>
